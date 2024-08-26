@@ -1,0 +1,29 @@
+:root {
+    --none: #ffffff00;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --white: #fff;
+    --black: #000;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+}
+
+$none: var(--none);
+$primary: var(--primary);
+$secondary: var(--secondary);
+$success: var(--success);
+$info: var(--info);
+$warning: var(--warning);
+$danger: var(--danger);
+$light: var(--light);
+$dark: var(--dark);
+$white: var(--white);
+$black: var(--black);
+$gray: var(--gray);
+$gray-dark: var(--gray-dark);

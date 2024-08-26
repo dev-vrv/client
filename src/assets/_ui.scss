@@ -1,0 +1,133 @@
+
+a {
+    text-decoration: none !important;
+    color: inherit;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        color: $primary;
+    }
+}
+
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    &-horizontal {
+        flex-direction: row;
+    }
+}
+
+
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    background-color: $none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    &:hover {
+        filter: brightness(0.8);
+    }
+
+    &-icon {
+        padding: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.75rem;
+    }
+
+    &-primary {
+        border-color: $primary;
+        background-color: $primary;
+    }
+    
+    &-secondary {
+        border-color: $secondary;
+        background-color: $secondary;
+    }
+
+    &-success {
+        border-color: $success;
+        background-color: $success;
+    }
+
+    &-danger {
+        border-color: $danger;
+        background-color: $danger;
+    }
+
+    &-warning {
+        border-color: $warning;
+        background-color: $warning;
+    }
+
+    &-info {
+        border-color: $info;
+        background-color: $info;
+    }
+
+    &-light {
+        border-color: $light;
+        background-color: $light;
+    }
+
+    &-dark {
+        border-color: $dark;
+        background-color: $dark;
+    }
+
+    &-outline-primary {
+        border-color: $primary;
+        background-color: $none;
+        color: $primary;
+    }
+
+    &-outline-secondary {
+        border-color: $secondary;
+        background-color: $none;
+        color: $secondary;
+    }
+
+    &-outline-success {
+        border-color: $success;
+        background-color: $none;
+        color: $success;
+    }
+
+    &-outline-danger {
+        border-color: $danger;
+        background-color: $none;
+        color: $danger;
+    }
+
+    &-outline-warning {
+        border-color: $warning;
+        background-color: $none;
+        color: $warning;
+    }
+
+    &-outline-info {
+        border-color: $info;
+        background-color: $none;
+        color: $info;
+    }
+
+    &-outline-light {
+        border-color: $light;
+        background-color: $none;
+        color: $light;
+    }
+
+    &-outline-dark {
+        border-color: $dark;
+        background-color: $none;
+        color: $dark;
+    }
+}

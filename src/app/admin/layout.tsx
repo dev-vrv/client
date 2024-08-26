@@ -1,19 +1,15 @@
 import { ThemeProvider } from "@/components/theme-provider"
-import { Inter } from 'next/font/google'
-import '@/assets/style.scss'
 
-interface RootLayoutProps {
+interface AdminLayoutProps {
   children: React.ReactNode
 }
 
-const inter = Inter({ subsets: ['latin'] })
-
-export default function RootLayout({ children }: RootLayoutProps) {
+export default function AdminLayout({ children }: AdminLayoutProps) {
   return (
     <>
       <html lang="en" suppressHydrationWarning>
         <head />
-        <body className={inter.className}>
+        <body>
           <ThemeProvider
             attribute="class"
             defaultTheme="system"
